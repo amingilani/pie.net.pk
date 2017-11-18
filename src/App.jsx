@@ -11,9 +11,11 @@ const ContainerExampleText = () => (
     </figure>
     <Header textAlign={'center'} as='h2'>This shouldn't be here</Header>
     <p>
-      Hi<br />
+      Hello
+      </p>
+      <p>
       This tribute to Harambe should be here. I don't know who to contact
-      about this domain, but if it's you, get in touch.
+      about this domain but if it's you, please get in touch.
     </p>
     <p>
     Amin Shah Gilani (<a href="https://keybase.io/gilani">PGP Key</a>)
