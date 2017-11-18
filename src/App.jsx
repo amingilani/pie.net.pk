@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 import harambe from './harambe.jpg';
 import './App.css';
-const ContainerExampleText = () => (
-  <Container textAlign={'left'} text>
+
+const HarambeContainer = () => (
+  <Container textAlign={'center'} text>
     <figure>
-      <img src={harambe} width="500px"/>
+        <Image src={harambe} size='massive' centered/>
       <figcaption>Harambe, 1999 - 2016</figcaption>
     </figure>
     <Header textAlign={'center'} as='h2'>This shouldn't be here</Header>
+  </Container>
+)
+
+
+const TextContainer = () => (
+  <Container textAlign={'left'} text>
     <p>
       Hello
       </p>
@@ -27,7 +34,10 @@ const ContainerExampleText = () => (
 class App extends Component {
   render() {
     return (
-      <ContainerExampleText />
+      <div id="App">
+      <HarambeContainer />
+      <TextContainer />
+      </div>
     );
   }
 }
