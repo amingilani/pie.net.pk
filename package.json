@@ -2,7 +2,9 @@
   "name": "pie.net.pk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://amingilani.github.io/pie.net.pk",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17",
@@ -10,6 +12,8 @@
     "semantic-ui-react": "^0.76.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
