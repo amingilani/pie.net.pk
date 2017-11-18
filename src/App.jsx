@@ -21,7 +21,7 @@ const TextContainer = () => (
       Hello
       </p>
       <p>
-      This tribute to Harambe should be here. I don't know who to contact
+      This tribute to Harambe shouldn't be here. I don't know who to contact
       about this domain but if it's you, please get in touch.
     </p>
     <p>
