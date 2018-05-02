@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Image } from 'semantic-ui-react'
+import { Advertisement, Container, Header, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 import harambe from './harambe.jpg';
 import './App.css';
@@ -30,13 +30,30 @@ const TextContainer = () => (
   </Container>
 )
 
+const AddContainer = () => (
+  <Container textAlign={'center'} text>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <Advertisement unit='leaderboard' >
+         <ins class="adsbygoogle"
+         style={{ display: "block" }}
+         data-ad-client="ca-pub-2863061781488070"
+         data-ad-slot="2480975372"
+         data-ad-format="auto"></ins>
+    </Advertisement>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </Container>
+)
+
 
 class App extends Component {
   render() {
     return (
       <div id="App">
-      <HarambeContainer />
-      <TextContainer />
+        <HarambeContainer />
+        <TextContainer />
+        <AddContainer />
       </div>
     );
   }
