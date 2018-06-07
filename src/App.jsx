@@ -25,8 +25,12 @@ const TextContainer = () => (
       about this domain but if it's you, please get in touch.
     </p>
     <p>
-    Amin Shah Gilani {"<"}<a href="mailto:amin@gilani.me">amin@gilani.me</a>{">"} (<a href="https://keybase.io/gilani">PGP Key</a>)
+    <a href="https://amin.gilani.me">Amin Shah Gilani</a> {"<"}<a href="mailto:amin@gilani.me">amin@gilani.me</a>{">"} (<a href="https://keybase.io/gilani">PGP Key</a>)
     </p>
+    <p>
+    <em>P.S. Like shopping on Amazon? Try <a href="https://nazdeeq.com">Nazdeeq</a> for fixed prices at checkout, and guaranteed delivery to Pakistan</em>.
+    </p>
+
   </Container>
 )
 
